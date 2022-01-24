@@ -134,7 +134,7 @@ function animate(){
         setTimeout(()=>{
           cancelAnimationFrame(animationId)
           console.log('endgame');
-          alert('you died')
+          alert('you died' + score)
         }, 0)
       }
 
